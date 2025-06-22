@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gurrehat Singh - IT Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <meta name="description" content="Portfolio of Gurrehat Singh - IT Systems Technician skilled in Windows Server, Networking, and Scripting.">
+  <meta name="author" content="Gurrehat Singh" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        Port<span>folio</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <a href="mailto:gurrehat.chopra12@gmail.com" class="hire-btn">Contact Me</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-subtitle">Hello, my name is</p>
+        <h1 class="hero-title">
+          Gurrehat <span class="highlight">Singh</span>
+        </h1>
+        <p class="hero-description">I'm a Computer System Technican- Information Technology student</p>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">3.95</span>
+            <span class="stat-label">GPA</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Co-op Roles</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">2025</span>
+            <span class="stat-label">Graduate</span>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <span class="social-text">Let's Connect</span>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/gurrehat-singh-chopra-7ab59125a/" class="social-icon" title="LinkedIn">💼</a>
+            <a href="mailto:gurrehat.chopra12@gmail.com" class="social-icon" title="Email">📧</a>
+            <a href="tel:+16476421870" class="social-icon" title="Phone">📱 </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="profile-container">
+          <div class="profile-bg"></div>
+          <img src="gr.jpg" alt="Gurrehat Singh Profile Photo" class="profile-img" />
+          <div class="floating-element tech1">PowerShell</div>
+          <div class="floating-element tech2">Windows Server</div>
+          <div class="floating-element tech3">Network Config</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="highlight">Me</span></h2>
+      <div class="about-content">
+        <p class="about-text">
+          Passionate about leveraging technology to solve complex problems and improve business processes.
+          Currently pursuing a Computer Systems Technician diploma with hands-on experience in technical support,
+          troubleshooting, and IT infrastructure management. Seeking dynamic IT opportunities where I can contribute,
+          learn, and grow while making a meaningful impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Technical Skills</h3>
+          <ul class="skill-list">
+            <li>Certificate: Microsoft Azure Fundamentals, Cisco Hardware Basics certificate, Cisco Introduction to Networking,
+Service Now IT Leadership Certificate, Windows Server Administration, Transact SQL </li>
+            <li>Microsoft Office- Word, Excel, Outlook, Teams, Exchange Centre Admin</li>
+            <li>Network Configuration (Cisco Packet Tracer)</li>
+            <li>PowerShell Scripting</li>
+            <li>Help Desk Support & Troubleshooting</li>
+            <li>Virtualization (Hyper-V)</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul class="skill-list">
+            <li>Communication & Collaboration</li>
+            <li>Problem Solving & Critical Thinking</li>
+            <li>Adaptability & Learning Agility</li>
+            <li>Time Management & Organization</li>
+            <li>Mentorship & Leadership Potential</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Education & <span class="highlight">Experience</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Computer Systems Technician</h3>
+            <div class="company">Sheridan College</div>
+            <div class="date">Expected 2025</div>
+            <p>GPA: 3.9 / 4.0</p>
+            <p><strong>Relevant Coursework:</strong> Networking, Server Administration, Scripting, Cyber Security Fundamentals</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Student Ambassador</h3>
+            <div class="company">Sheridan College</div>
+            <div class="date">Jan 2025 – Present</div>
+            <ul>
+              <li>Delivered campus tours and presentations to prospective students and families</li>
+              <li>Supported pre- and post-tour logistics, ensuring events ran smoothly</li>
+              <li>Represented the Computer Systems Technician program during recruitment events and open houses</li>
+              <li>Assisted with administrative duties and social media outreach to promote Sheridan programs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Technology Service Centre Analyst</h3>
+            <div class="company">Region of Peel (Co-op)</div>
+            <div class="date">April 2024- April 2025</div>
+            <ul>
+              <li>Assisted in diagnosing and resolving complex IT incidents and service requests</li>
+              <li>Collaborated with cross-functional teams to expedite project delivery by 30%</li>
+              <li>Supported user account management and network troubleshooting</li>
+            </ul>
+          </div>
+        </div>
+         <div class="timeline-item">
+          <div class="timeline-content">
+           <h3>Technical Support Representative</h3>
+<div class="company">Geek Squad – Best Buy</div>
+<div class="date">September 2024 – December 2024</div>
+<ul>
+  <li>Provided hands-on technical support for consumer electronics, including diagnostics, repairs, and troubleshooting</li>
+  <li>Assisted customers with software installations, system updates, and hardware configurations</li>
+  <li>Documented service requests and ensured timely follow-up on unresolved issues</li>
+  <li>Collaborated with team members to maintain service standards and deliver an exceptional client experience</li>
+</ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  Understood! You want your Career Objective to appear after all your Certifications. This makes perfect sense for a flow where you first showcase your achievements and then state your future goals.
+
+Here's the updated HTML structure that puts your Career Objective at the end of the section, after all the certificates:
+
+Certifications & &lt;span class="highlight">Goals&lt;/span>
+HTML
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Certifications & <span class="highlight">Goals</span></h2>
+
+        <div class="cert-grid">
+            <div class="cert-item">
+                <div class="cert-icon">🏅</div>
+                <h3>Ubuntu Linux Professional Certificate by Canonical</h3>
+                <p class="cert-status">Achieved</p>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">🏆</div>
+                <h3>Microsoft Certified: Azure Fundamentals</h3>
+                <p class="cert-status">Achieved</p>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">🏅</div>
+                <h3>Atlassian IT Service Management (ITSM) Professional Certificate</h3>
+                <p class="cert-status">Achieved</p>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">🏆</div>
+                <h3>Cisco: Computer Hardware Basics, Networking Devices and Initial Configuration</h3>
+                <p class="cert-status">Achieved</p>
+            </div>
+        </div>
+
+        <div class="about-content" style="margin-top: 60px;">
+            <h3 style="color: var(--primary); margin-bottom: 20px;">Career Objective</h3>
+            <p class="about-text">
+                Driven IT professional eager to apply strong technical and analytical skills in a dynamic IT support or infrastructure role. Committed to continuous learning and contributing to efficient technology operations while building expertise in enterprise systems and network management.
+            </p>
+        </div>
+    </div>
+</section>
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Failover Clustering between Two Node Servers and Storage</h3>
+          <p>Implemented a high-availability failover clustering setup using shared storage for seamless service continuity. Focused on automated recovery, load balancing, and system resilience.</p>
+        </div>
+        <div class="project-card">
+          <h3>Window Deployment Services and Managing Active Directory</h3>
+          <p>Configured a domain network with DHCP, user/OU management, PXE-based OS deployment, and GPO for system standardization and access control.</p>
+        </div>
+        <div class="project-card">
+          <h3>Cloud Security using AWS IAM</h3>
+          <p>Designed and implemented IAM policies to control access across AWS services. Applied least privilege principles, managed roles/groups, and audited activity logs to enhance cloud security posture.</p>
+        </div>
+        <div class="project-card">
+          <h3>Chatbot Development with Amazon Lex</h3>
+          <p>Built an interactive chatbot using Amazon Lex for customer support automation. Integrated with Lambda functions and tested natural language processing capabilities to simulate real conversations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+55, 255, 0.7), 0 0 10px rgba(0, 255, 255, 0.5);
+}
